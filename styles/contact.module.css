@@ -1,0 +1,72 @@
+.contactArea{
+    width: 100%;
+    margin: 20px 0px;
+    /* border: 2px solid red; */
+    background-color: rgba(49, 14, 224, 0.08);
+    padding: 20px 0px;
+}
+.contact{
+    width: 50%;
+    margin: 30px auto;
+    /* border: 1px solid grey; */
+    box-shadow: 2px 2px 5px grey,-2px -2px 5px grey;
+    padding-top: 20px;
+}
+.contact>h1{
+    color: rgb(36, 33, 33);
+    font-family:"Exo 2",sans-serif;
+    font-size: 30px;
+}
+.form{
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+    padding: 0px 20px;
+}
+.formGroup{
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 0px;
+}
+.formGroup>label{
+    margin-bottom: 5px;
+    color: grey;
+    font-weight: bold;
+}
+.formGroup>input{
+    padding: 10px;
+    outline: none;
+    /* border: 1px solid grey; */
+}
+.formGroup>textarea{
+    padding: 10px;
+    outline: none;
+}
+.btn{
+    padding: 10px 25px;
+    background-color: blue;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 1.3px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(8, 31, 102, 0.977);
+}
+@media screen and (max-width:640px){
+    .contact{
+        width: 80%;
+    }
+}
+@media screen and (max-width:390px) {
+    .contact {
+        width: 95%;
+    }
+}

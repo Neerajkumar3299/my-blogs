@@ -1,0 +1,71 @@
+.BlogContainer {
+    width: 100%;
+    margin: 20px 0px;
+    /* border: 2px solid red; */
+}
+
+.header {
+    width: 70%;
+    margin: 15px auto;
+    /* background-color: aliceblue;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header>h1 {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+.Blogs {
+    width: 70%;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.Blog {
+    width: 32%;
+    /* padding: 10px 0px; */
+    padding-bottom: 10px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.Blog>img {
+    width: 100%;
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: grey;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn>a {
+    color: white;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(27, 24, 24);
+}

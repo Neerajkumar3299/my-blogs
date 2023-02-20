@@ -1,0 +1,50 @@
+.blogContainer{
+    width: 50%;
+    margin: 20px 0px;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 15px 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.header>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.title{
+    padding-left: 10px;
+}
+.title>h4{
+    color: grey;
+    letter-spacing: 1.2px;
+}
+.title>p{
+    color: grey;
+    letter-spacing: 1.2px;
+}
+.content{
+    width: 100%;
+}
+.content>img{
+    width: 100%;
+}
+.content>p{
+    color: rgb(49, 45, 45);
+    padding: 10px 0px;
+    text-align: justify;
+}
+@media screen and (max-width:902px){
+    .blogContainer{
+        width: 80%;
+    }
+}
+@media screen and (max-width:450px) {
+    .blogContainer {
+        width: 95%;
+    }
+}
