@@ -3,7 +3,8 @@ import styles from "../../styles/blog.module.css"
 import { useRouter } from "next/router"
 function Blog(){
     const router=useRouter();
-    const {slug}=router.query;
+    const {blogid}=router.query;
+    console.log(blogid)
     return(
         <>
             <section className={styles.blogContainer}>

@@ -2,7 +2,8 @@ import { useRouter } from "next/router"
 import styles from "../../styles/singleProduct.module.css"
 function SingleProduct(){
     const router=useRouter();
-    const {slug}=router.query;
+    const {productid}=router.query;
+    console.log(productid);
     return (
       <>
         <style jsx>

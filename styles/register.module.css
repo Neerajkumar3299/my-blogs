@@ -41,3 +41,19 @@
 .register a:hover{
     color: rgb(12, 12, 139);
 }
+
+@media screen and (max-width:1000px){
+    .register{
+        width: 50%;
+    }
+}
+@media screen and (max-width:610px) {
+    .register {
+        width: 80%;
+    }
+}
+@media screen and (max-width:320px) {
+    .register {
+        width: 95%;
+    }
+}

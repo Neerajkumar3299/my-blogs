@@ -50,7 +50,11 @@ function Navbar(){
             onClick={() => setShowLinks(!showLinks)}
           />
           <div className={styles.logo}>
-            <Link href="/" className={styles.logoContent}>
+            <Link
+              href="/"
+              className={styles.logoContent}
+              onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
+            >
               <img src="/blog.ico" alt="icon" className={styles.logoIcon} />
               <h1 className={styles.logoHeader}>
                 My <span>Blog</span>
@@ -60,6 +64,7 @@ function Navbar(){
           <div className={styles.links} ref={linkHeight}>
             <ul>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/"
                 className={
                   pathname == "/"
@@ -70,6 +75,7 @@ function Navbar(){
                 <li>Home</li>
               </Link>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/#about"
                 className={
                   pathname == "/#about"
@@ -81,6 +87,7 @@ function Navbar(){
               </Link>
 
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/#contact"
                 className={
                   pathname == "/#contact"
@@ -91,6 +98,7 @@ function Navbar(){
                 <li>Contact</li>
               </Link>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/blogs"
                 className={
                   pathname == "/blogs"
@@ -101,6 +109,7 @@ function Navbar(){
                 <li>Blogs</li>
               </Link>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/products"
                 className={
                   pathname == "/products"
@@ -111,6 +120,7 @@ function Navbar(){
                 <li>Products</li>
               </Link>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/login"
                 className={
                   pathname == "/login"
@@ -121,6 +131,7 @@ function Navbar(){
                 <li>Login</li>
               </Link>
               <Link
+                onClick={showLinks ? () => setShowLinks(!showLinks) : ""}
                 href="/register"
                 className={
                   pathname == "/register"

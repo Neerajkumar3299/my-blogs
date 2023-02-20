@@ -69,3 +69,19 @@
 .btn:hover {
     background-color: rgb(27, 24, 24);
 }
+
+@media screen and (max-width:930px){
+    .Blogs{
+        width: 90%;
+    }
+}
+@media screen and (max-width:580px) {
+    .Blog {
+        width: 49%;
+    }
+}
+@media screen and (max-width:430px) {
+    .Blog {
+        width: 95%;
+    }
+}
